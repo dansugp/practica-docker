@@ -1,7 +1,7 @@
 from fastapi import FastApi, Request
 import os
 
-app= FastApi()
+app = FastApi()
 DATA_FILE = "/data/notas.txt"
 
 # @app.post("/nota")
@@ -22,4 +22,5 @@ DATA_FILE = "/data/notas.txt"
 async def root():
     return {
         "message": "Ejemplo en clase"
+        "notas"
     }
