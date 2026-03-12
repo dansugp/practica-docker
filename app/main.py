@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 import os
 
-app = FastApi()
+app = FastAPI()
 DATA_FILE = "/data/notas.txt"
 
 # @app.post("/nota")
